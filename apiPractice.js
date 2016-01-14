@@ -17,7 +17,7 @@ $(document).ready(function(){
     }
   });
 
-  function buildRepouUrl(repoData){
+  function buildRepoUrl(repoData){
     var commitsApiUrl = "https://api.github.com/repos/";
     commitsApiUrl += repoData.owner.login + "/";
     commitsApiUrl += repoData.name + "/commits";
